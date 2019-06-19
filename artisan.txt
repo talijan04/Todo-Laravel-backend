@@ -1,0 +1,33 @@
+php artisan migrate:status
+
+
+php artisan migrate:refresh --path=/database/migrations/2014_10_12_000000_create_users_table.php
+
+
+/*
+  getTasks(){
+    this.tasks = this.taskService.getTasks();
+  }*/
+/*
+  getUserID(): number {
+    let tempid: number
+    let res
+    this.auth.profile().subscribe(
+      user => {
+        //this.details = user
+        res = user
+        tempid = res.user.id
+      },
+      err => {
+          console.error(err)
+      },
+      () =>{
+        console.log(tempid)
+        return tempid
+      }
+   
+    )
+    //return res.user.id
+    
+    
+  }*/
